@@ -13,6 +13,26 @@
     font-size: var(--mobile-lfs);
     font-weight: var(--lfw);
     color: var(--aclr);
+    animation-name: text-appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+@keyframes text-appear {
+from {
+    opacity: 0%;
+}
+
+to {
+    opacity: 100%;
+}
+}
+
+.line3 {
+    font-family: var(--header-aff);
+    color: #dd1c1a;
 }
 
 .instruction {
@@ -23,8 +43,24 @@
 }
 .img {
     box-shadow: var(--bs);
+    animation-name: text-appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 2s;
 }
 
+@keyframes text-appear {
+    from {
+        opacity: 0%; 
+        width: 0%;
+    }
+    
+    to {
+        opacity: 100%;
+        width: 100%;
+    }
+    }
 .main {
     margin-top: 1.5rem;
 }
