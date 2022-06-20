@@ -14,10 +14,10 @@
     font-weight: var(--lfw);
     color: var(--aclr);
     animation-name: text-appear;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-fill-mode: both;
-    animation-delay: 0.5s;
+    animation-delay: 0.7s;
 }
 
 @keyframes text-appear {
@@ -47,7 +47,7 @@ to {
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: both;
-    animation-delay: 2s;
+    animation-delay: 2.2s;
 }
 
 @keyframes text-appear {
