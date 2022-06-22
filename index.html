@@ -5,40 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filter</title>
+    <title>Filtar</title>
     <!-- css links -->
     <link rel="stylesheet" href="basic.css">
     <link rel="stylesheet" href="index.css">
     <!-- google fonts link -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap"rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- icon link -->
+    <link rel="shortcut icon" href="images/favicon.ico" /> 
 </head>
 
 <body>
+   
     <div class="container">
         <header class="heading-container">
-            <div class="heading line1">Welcome to Blaqbonez'</div><div class="heading line2">Breaking The Yoke of Love<span class="heading line3"> Crusade</span></div>
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="heading line1">Welcome to Blaqbonez'</div>
+            <div class="heading line2">Breaking The Yoke of Love<span class="heading line3"> Crusade</span></div>
             <p class="instruction">Kindly input your name and email addresss</p>
         </header>
-       
+
         <div class="img-container">
             <img src="images/image2.jpg" alt="" class="img">
         </div>
         <main class="main">
-        <form action="" class="form">
-            <input type="text" class="name" placeholder="Name">
-            <input type="email" class="email"placeholder="Email">
-        </form>
-
-        <footer class="footer">
-            <a href="" class="btn-link">
+            <form onsubmit="submitForm(event)" class="form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="email" id="email" placeholder="Email" required>
                 <button class="btn">Proceed</button>
-            </a>
-        </footer>
+            </form>
         </main>
-        
+
     </div>
 </body>
+
 <script src="index.js"></script>
+
 
 </html>

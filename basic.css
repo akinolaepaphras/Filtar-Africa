@@ -11,6 +11,7 @@ html {
 
 body {
     margin: 0;
+    background: #d8e1ff;
 }
 
 img {
@@ -38,7 +39,7 @@ img {
 
 
     /* colors */
-    --aclr: #083d77;
+    --aclr: #000814;
     --input-bgclr: #ebebd3;
     --bgclr: white;
     --text-clr: #303030;
